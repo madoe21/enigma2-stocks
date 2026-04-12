@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+# Only remove data on real uninstall, not on upgrade/reinstall
+if [ "$1" = "remove" ]; then
+    rm -f /etc/enigma2/stocks_settings.json  || true
+    rm -f /etc/enigma2/stocks_watchlist.json || true
+fi
+exit 0

@@ -1,0 +1,160 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stocks 1.0.0\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Add"
+msgstr "Aggiungi"
+
+msgid "Added to watchlist"
+msgstr "Aggiunto alla watchlist"
+
+msgid "Alert baseline"
+msgstr "Base allarme"
+
+msgid "Alert threshold"
+msgstr "Soglia allarme"
+
+msgid "Already in watchlist"
+msgstr "Già nella watchlist"
+
+msgid "BLUE = Start search"
+msgstr "BLU = Avvia ricerca"
+
+msgid "Cancel"
+msgstr "Annulla"
+
+msgid "Close"
+msgstr "Chiudi"
+
+msgid "Controls"
+msgstr "Comandi"
+
+msgid "Currency"
+msgstr "Valuta"
+
+msgid "Data source"
+msgstr "Fonte dati"
+
+msgid "Deployment via .env"
+msgstr "Deployment via .env"
+
+msgid "Details"
+msgstr "Dettagli"
+
+msgid "Display duration"
+msgstr "Durata visualizzazione"
+
+msgid "Enter name, ISIN or WKN"
+msgstr "Inserisci nome, ISIN o WKN"
+
+msgid "Industry"
+msgstr "Settore"
+
+msgid "Information"
+msgstr "Informazioni"
+
+msgid "Left/Right changes value"
+msgstr "Sinistra/Destra cambia valore"
+
+msgid "Loading data..."
+msgstr "Caricamento dati..."
+
+msgid "Main menu"
+msgstr "Menu principale"
+
+msgid "Market cap"
+msgstr "Capitalizzazione"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "No API key required."
+msgstr "Nessuna chiave API richiesta."
+
+msgid "No quote data loaded yet"
+msgstr "Nessun dato di quotazione caricato"
+
+msgid "No results"
+msgstr "Nessun risultato"
+
+msgid "No stock selected"
+msgstr "Nessuna azione selezionata"
+
+msgid "No stocks in watchlist"
+msgstr "Nessuna azione nella watchlist"
+
+msgid "Output target"
+msgstr "Destinazione uscita"
+
+msgid "Polling interval"
+msgstr "Intervallo polling"
+
+msgid "Price"
+msgstr "Prezzo"
+
+msgid "Quote data"
+msgstr "Dati quotazione"
+
+msgid "Refresh"
+msgstr "Aggiorna"
+
+msgid "Refreshing..."
+msgstr "Aggiornamento..."
+
+msgid "Remove"
+msgstr "Rimuovi"
+
+msgid "Remove from watchlist?"
+msgstr "Rimuovere dalla watchlist?"
+
+msgid "Save"
+msgstr "Salva"
+
+msgid "Search"
+msgstr "Cerca"
+
+msgid "Searching..."
+msgstr "Ricerca..."
+
+msgid "Sector"
+msgstr "Settore"
+
+msgid "Security"
+msgstr "Titolo"
+
+msgid "Settings"
+msgstr "Impostazioni"
+
+msgid "Settings saved"
+msgstr "Impostazioni salvate"
+
+msgid "Stock market watchlist and price alerts"
+msgstr "Watchlist azioni e avvisi prezzo"
+
+msgid "Stock search"
+msgstr "Ricerca azioni"
+
+msgid "Stocks - Watchlist"
+msgstr "Azioni - Watchlist"
+
+msgid "Symbol"
+msgstr "Simbolo"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "n/a"
+msgstr "n/d"
+
+msgid "results"
+msgstr "risultati"
+
+msgid "titles"
+msgstr "titoli"
+
+msgid "with price"
+msgstr "con prezzo"

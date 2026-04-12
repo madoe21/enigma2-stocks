@@ -1,0 +1,160 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stocks 1.0.0\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Add"
+msgstr "Add"
+
+msgid "Added to watchlist"
+msgstr "Added to watchlist"
+
+msgid "Alert baseline"
+msgstr "Alert baseline"
+
+msgid "Alert threshold"
+msgstr "Alert threshold"
+
+msgid "Already in watchlist"
+msgstr "Already in watchlist"
+
+msgid "BLUE = Start search"
+msgstr "BLUE = Start search"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Close"
+msgstr "Close"
+
+msgid "Controls"
+msgstr "Controls"
+
+msgid "Currency"
+msgstr "Currency"
+
+msgid "Data source"
+msgstr "Data source"
+
+msgid "Deployment via .env"
+msgstr "Deployment via .env"
+
+msgid "Details"
+msgstr "Details"
+
+msgid "Display duration"
+msgstr "Display duration"
+
+msgid "Enter name, ISIN or WKN"
+msgstr "Enter name, ISIN or WKN"
+
+msgid "Industry"
+msgstr "Industry"
+
+msgid "Information"
+msgstr "Information"
+
+msgid "Left/Right changes value"
+msgstr "Left/Right changes value"
+
+msgid "Loading data..."
+msgstr "Loading data..."
+
+msgid "Main menu"
+msgstr "Main menu"
+
+msgid "Market cap"
+msgstr "Market cap"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "No API key required."
+msgstr "No API key required."
+
+msgid "No quote data loaded yet"
+msgstr "No quote data loaded yet"
+
+msgid "No results"
+msgstr "No results"
+
+msgid "No stock selected"
+msgstr "No stock selected"
+
+msgid "No stocks in watchlist"
+msgstr "No stocks in watchlist"
+
+msgid "Output target"
+msgstr "Output target"
+
+msgid "Polling interval"
+msgstr "Polling interval"
+
+msgid "Price"
+msgstr "Price"
+
+msgid "Quote data"
+msgstr "Quote data"
+
+msgid "Refresh"
+msgstr "Refresh"
+
+msgid "Refreshing..."
+msgstr "Refreshing..."
+
+msgid "Remove"
+msgstr "Remove"
+
+msgid "Remove from watchlist?"
+msgstr "Remove from watchlist?"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Search"
+msgstr "Search"
+
+msgid "Searching..."
+msgstr "Searching..."
+
+msgid "Sector"
+msgstr "Sector"
+
+msgid "Security"
+msgstr "Security"
+
+msgid "Settings"
+msgstr "Settings"
+
+msgid "Settings saved"
+msgstr "Settings saved"
+
+msgid "Stock market watchlist and price alerts"
+msgstr "Stock market watchlist and price alerts"
+
+msgid "Stock search"
+msgstr "Stock search"
+
+msgid "Stocks - Watchlist"
+msgstr "Stocks - Watchlist"
+
+msgid "Symbol"
+msgstr "Symbol"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "n/a"
+msgstr "n/a"
+
+msgid "results"
+msgstr "results"
+
+msgid "titles"
+msgstr "titles"
+
+msgid "with price"
+msgstr "with price"

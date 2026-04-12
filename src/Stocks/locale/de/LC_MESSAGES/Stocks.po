@@ -1,0 +1,160 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stocks 1.0.0\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Add"
+msgstr "Hinzufügen"
+
+msgid "Added to watchlist"
+msgstr "Zur Watchlist hinzugefügt"
+
+msgid "Alert baseline"
+msgstr "Alarm-Basiswert"
+
+msgid "Alert threshold"
+msgstr "Alarm-Schwelle"
+
+msgid "Already in watchlist"
+msgstr "Bereits in der Watchlist"
+
+msgid "BLUE = Start search"
+msgstr "BLAU = Suche starten"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Close"
+msgstr "Schließen"
+
+msgid "Controls"
+msgstr "Bedienung"
+
+msgid "Currency"
+msgstr "Währung"
+
+msgid "Data source"
+msgstr "Datenquelle"
+
+msgid "Deployment via .env"
+msgstr "Deployment über .env"
+
+msgid "Details"
+msgstr "Details"
+
+msgid "Display duration"
+msgstr "Anzeigedauer"
+
+msgid "Enter name, ISIN or WKN"
+msgstr "Name, ISIN oder WKN eingeben"
+
+msgid "Industry"
+msgstr "Branche"
+
+msgid "Information"
+msgstr "Informationen"
+
+msgid "Left/Right changes value"
+msgstr "Links/Rechts ändert Wert"
+
+msgid "Loading data..."
+msgstr "Lade Daten..."
+
+msgid "Main menu"
+msgstr "Hauptmenü"
+
+msgid "Market cap"
+msgstr "Marktkapitalisierung"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "No API key required."
+msgstr "Kein API-Schlüssel erforderlich."
+
+msgid "No quote data loaded yet"
+msgstr "Noch keine Kursdaten geladen"
+
+msgid "No results"
+msgstr "Keine Ergebnisse"
+
+msgid "No stock selected"
+msgstr "Keine Aktie ausgewählt"
+
+msgid "No stocks in watchlist"
+msgstr "Keine Aktien in der Watchlist"
+
+msgid "Output target"
+msgstr "Ausgabeziel"
+
+msgid "Polling interval"
+msgstr "Abrufintervall"
+
+msgid "Price"
+msgstr "Preis"
+
+msgid "Quote data"
+msgstr "Kursdaten"
+
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+msgid "Refreshing..."
+msgstr "Aktualisiere..."
+
+msgid "Remove"
+msgstr "Entfernen"
+
+msgid "Remove from watchlist?"
+msgstr "Aus Watchlist entfernen?"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Search"
+msgstr "Suche"
+
+msgid "Searching..."
+msgstr "Suche..."
+
+msgid "Sector"
+msgstr "Sektor"
+
+msgid "Security"
+msgstr "Wertpapier"
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgid "Settings saved"
+msgstr "Einstellungen gespeichert"
+
+msgid "Stock market watchlist and price alerts"
+msgstr "Aktien-Watchlist und Kursalarme"
+
+msgid "Stock search"
+msgstr "Aktiensuche"
+
+msgid "Stocks - Watchlist"
+msgstr "Aktien - Watchlist"
+
+msgid "Symbol"
+msgstr "Symbol"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "n/a"
+msgstr "n/v"
+
+msgid "results"
+msgstr "Ergebnisse"
+
+msgid "titles"
+msgstr "Titel"
+
+msgid "with price"
+msgstr "mit Preis"

@@ -1,0 +1,166 @@
+### ============================================================
+### Stocks Plugin – Yahoo Finance API Test Calls
+### REST Client (VS Code extension: humao.rest-client)
+### ============================================================
+
+@searchBaseUrl  = https://query2.finance.yahoo.com/v1/finance
+@chartBaseUrl   = https://query1.finance.yahoo.com/v8/finance/chart
+@summaryBaseUrl = https://query1.finance.yahoo.com/v10/finance/quoteSummary
+
+### Common example symbols
+@symbolDAX   = SAP.DE
+@symbolUS    = AAPL
+@symbolETF   = EXS1.DE
+@symbolCrypto = BTC-EUR
+
+### User-Agent header (required – Yahoo blocks empty UA)
+# @name ua
+
+
+# ============================================================
+# 1. SEARCH – by company name
+# ============================================================
+
+### 1a) Search by company name (German locale)
+GET {{searchBaseUrl}}/search?q=SAP&lang=de-DE&region=DE&quotesCount=10&newsCount=0
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36
+Accept: application/json
+
+###
+
+### 1b) Search by ISIN (Allianz SE)
+GET {{searchBaseUrl}}/search?q=DE0008404005&lang=de-DE&region=DE&quotesCount=10&newsCount=0
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36
+Accept: application/json
+
+###
+
+### 1c) Search by WKN (Volkswagen: 766403)
+GET {{searchBaseUrl}}/search?q=766403&lang=de-DE&region=DE&quotesCount=10&newsCount=0
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36
+Accept: application/json
+
+###
+
+### 1d) Search by ticker (US stock, English locale)
+GET {{searchBaseUrl}}/search?q=AAPL&lang=en-US&region=US&quotesCount=10&newsCount=0
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36
+Accept: application/json
+
+###
+
+### 1e) Search for an ETF
+GET {{searchBaseUrl}}/search?q=MSCI+World+ETF&lang=de-DE&region=DE&quotesCount=10&newsCount=0
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36
+Accept: application/json
+
+###
+
+### 1f) Search for a crypto pair
+GET {{searchBaseUrl}}/search?q=Bitcoin+EUR&lang=de-DE&region=DE&quotesCount=10&newsCount=0
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36
+Accept: application/json
+
+###
+
+
+# ============================================================
+# 2. QUOTE (chart endpoint, v8)
+#    Returns: meta.regularMarketPrice, meta.currency,
+#             meta.chartPreviousClose, meta.marketState
+# ============================================================
+
+### 2a) DAX-listed stock (SAP SE)
+GET {{chartBaseUrl}}/{{symbolDAX}}?interval=1d&range=1d
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36
+Accept: application/json
+
+###
+
+### 2b) US stock (Apple)
+GET {{chartBaseUrl}}/{{symbolUS}}?interval=1d&range=1d
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36
+Accept: application/json
+
+###
+
+### 2c) German ETF (iShares Core DAX)
+GET {{chartBaseUrl}}/{{symbolETF}}?interval=1d&range=1d
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36
+Accept: application/json
+
+###
+
+### 2d) Crypto (Bitcoin / EUR)
+GET {{chartBaseUrl}}/{{symbolCrypto}}?interval=1d&range=1d
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36
+Accept: application/json
+
+###
+
+### 2e) Historical chart – 5 days, 1h interval (for future chart view)
+GET {{chartBaseUrl}}/{{symbolDAX}}?interval=1h&range=5d
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36
+Accept: application/json
+
+###
+
+
+# ============================================================
+# 3. QUOTE SUMMARY (v10) – extended metadata
+#    Returns: assetProfile (sector, industry, ISIN-like fields),
+#             price module (currency, marketCap, regularMarketPrice …)
+# ============================================================
+
+### 3a) Full asset profile + price for SAP
+GET {{summaryBaseUrl}}/{{symbolDAX}}?modules=assetProfile,price
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36
+Accept: application/json
+
+###
+
+### 3b) Only the price module (light-weight)
+GET {{summaryBaseUrl}}/{{symbolUS}}?modules=price
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36
+Accept: application/json
+
+###
+
+### 3c) Key statistics (P/E, earnings, etc.)
+GET {{summaryBaseUrl}}/{{symbolUS}}?modules=defaultKeyStatistics,financialData
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36
+Accept: application/json
+
+###
+
+
+# ============================================================
+# 4. MULTIPLE QUOTES in one request (v7)
+#    Comma-separated symbols
+# ============================================================
+
+### 4a) Batch quote for several symbols at once
+GET https://query1.finance.yahoo.com/v7/finance/quote?symbols={{symbolDAX}},{{symbolUS}},{{symbolETF}},{{symbolCrypto}}
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36
+Accept: application/json
+
+###
+
+
+# ============================================================
+# 5. TRENDING / MARKET OVERVIEW (optional, for future home screen)
+# ============================================================
+
+### 5a) Trending tickers for Germany
+GET https://query1.finance.yahoo.com/v1/finance/trending/DE
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36
+Accept: application/json
+
+###
+
+### 5b) Market summary (index overview)
+GET https://query1.finance.yahoo.com/v6/finance/quote/marketSummary?lang=de-DE&region=DE
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36
+Accept: application/json
+
+###

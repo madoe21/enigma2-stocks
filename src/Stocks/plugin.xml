@@ -1,0 +1,6 @@
+<plugin>
+    <name>Stocks</name>
+    <description>Stock market watchlist and price alerts for Enigma2 (data via Yahoo Finance)</description>
+    <author>madoe21</author>
+    <version>1.0.0</version>
+</plugin>

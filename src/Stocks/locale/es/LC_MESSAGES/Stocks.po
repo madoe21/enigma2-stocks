@@ -1,0 +1,160 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stocks 1.0.0\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Add"
+msgstr "Añadir"
+
+msgid "Added to watchlist"
+msgstr "Añadido a la watchlist"
+
+msgid "Alert baseline"
+msgstr "Valor base de alerta"
+
+msgid "Alert threshold"
+msgstr "Umbral de alerta"
+
+msgid "Already in watchlist"
+msgstr "Ya está en la watchlist"
+
+msgid "BLUE = Start search"
+msgstr "AZUL = Iniciar búsqueda"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Close"
+msgstr "Cerrar"
+
+msgid "Controls"
+msgstr "Controles"
+
+msgid "Currency"
+msgstr "Moneda"
+
+msgid "Data source"
+msgstr "Fuente de datos"
+
+msgid "Deployment via .env"
+msgstr "Despliegue vía .env"
+
+msgid "Details"
+msgstr "Detalles"
+
+msgid "Display duration"
+msgstr "Duración de visualización"
+
+msgid "Enter name, ISIN or WKN"
+msgstr "Introducir nombre, ISIN o WKN"
+
+msgid "Industry"
+msgstr "Industria"
+
+msgid "Information"
+msgstr "Información"
+
+msgid "Left/Right changes value"
+msgstr "Izq./Der. cambia valor"
+
+msgid "Loading data..."
+msgstr "Cargando datos..."
+
+msgid "Main menu"
+msgstr "Menú principal"
+
+msgid "Market cap"
+msgstr "Capitalización"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "No API key required."
+msgstr "No se requiere clave API."
+
+msgid "No quote data loaded yet"
+msgstr "Sin datos de cotización cargados"
+
+msgid "No results"
+msgstr "Sin resultados"
+
+msgid "No stock selected"
+msgstr "Ninguna acción seleccionada"
+
+msgid "No stocks in watchlist"
+msgstr "No hay acciones en la watchlist"
+
+msgid "Output target"
+msgstr "Destino de salida"
+
+msgid "Polling interval"
+msgstr "Intervalo de sondeo"
+
+msgid "Price"
+msgstr "Precio"
+
+msgid "Quote data"
+msgstr "Datos de cotización"
+
+msgid "Refresh"
+msgstr "Actualizar"
+
+msgid "Refreshing..."
+msgstr "Actualizando..."
+
+msgid "Remove"
+msgstr "Quitar"
+
+msgid "Remove from watchlist?"
+msgstr "¿Quitar de la watchlist?"
+
+msgid "Save"
+msgstr "Guardar"
+
+msgid "Search"
+msgstr "Buscar"
+
+msgid "Searching..."
+msgstr "Buscando..."
+
+msgid "Sector"
+msgstr "Sector"
+
+msgid "Security"
+msgstr "Valor"
+
+msgid "Settings"
+msgstr "Ajustes"
+
+msgid "Settings saved"
+msgstr "Ajustes guardados"
+
+msgid "Stock market watchlist and price alerts"
+msgstr "Watchlist de acciones y alertas de precio"
+
+msgid "Stock search"
+msgstr "Búsqueda de acciones"
+
+msgid "Stocks - Watchlist"
+msgstr "Acciones - Watchlist"
+
+msgid "Symbol"
+msgstr "Símbolo"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "n/a"
+msgstr "n/d"
+
+msgid "results"
+msgstr "resultados"
+
+msgid "titles"
+msgstr "títulos"
+
+msgid "with price"
+msgstr "con precio"
