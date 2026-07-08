@@ -7,6 +7,9 @@ import os
 
 SETTINGS_FILE  = "/etc/enigma2/stocks_settings.json"
 WATCHLIST_FILE = "/etc/enigma2/stocks_watchlist.json"
+# Optional mirror into the Enigma2 global settings file. Pass None (or another
+# path) at construction on non-Enigma2 platforms (e.g. Kodi) to disable it.
+ENIGMA2_SETTINGS_FILE = "/etc/enigma2/settings"
 
 DEFAULT_SETTINGS = {
     "currency":             "EUR",
@@ -32,9 +35,12 @@ class StocksStore(object):
         self,
         settings_file=SETTINGS_FILE,
         watchlist_file=WATCHLIST_FILE,
+        enigma2_settings_file=ENIGMA2_SETTINGS_FILE,
     ):
         self.settings_file = settings_file
         self.watchlist_file = watchlist_file
+        # None disables the Enigma2 settings mirror (non-Enigma2 platforms).
+        self.enigma2_settings_file = enigma2_settings_file
 
     # ------------------------------------------------------------------
     # Low-level helpers
@@ -157,7 +163,9 @@ class StocksStore(object):
         """Mirror watchlist symbols into /etc/enigma2/settings so that
         deploying via .env is possible and the data survives a factory
         reset of the JSON files."""
-        settings_path = "/etc/enigma2/settings"
+        settings_path = self.enigma2_settings_file
+        if not settings_path:
+            return
         watchlist = self.get_watchlist()
         symbols = ",".join(
             item.get("symbol", "") for item in watchlist
@@ -182,8 +190,8 @@ class StocksStore(object):
     def load_watchlist_from_enigma2(self):
         """Read config.plugins.stocks.watchlist from /etc/enigma2/settings
         and add any symbols not yet in the JSON watchlist."""
-        settings_path = "/etc/enigma2/settings"
-        if not os.path.exists(settings_path):
+        settings_path = self.enigma2_settings_file
+        if not settings_path or not os.path.exists(settings_path):
             return
         try:
             with open(settings_path, "r") as fh:
