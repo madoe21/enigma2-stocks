@@ -1,5 +1,7 @@
 # enigma2-stocks
 
+[![Built with aiflow](https://img.shields.io/badge/built%20with-aiflow-6b46c1)](https://github.com/cyber93de/aiflow)
+
 Stock market watchlist and price alert plugin for Enigma2.  
 Data is fetched from the Yahoo Finance API (no API key required).
 
