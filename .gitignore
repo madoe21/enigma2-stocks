@@ -3,3 +3,6 @@ build/
 *.pyc
 __pycache__/
 .env
+
+# aiflow project-update keeps your customised file as <file>.bak before replacing it
+*.bak
